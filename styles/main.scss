@@ -1,0 +1,40 @@
+@mixin center-object($horizontalOffset: -50%, $verticalOffset: -50%) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate($horizontalOffset, $verticalOffset);
+}
+
+body {
+    font-family: 'Marcellus', serif;
+    text-decoration: none;
+}
+
+.main-section {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    
+    &__center-image {
+    @include center-object(-150%, -50%);
+    height: 40vmin;
+    width: 40vmin;
+    border-radius: 50%;
+    background-image: url('/assets/100_1659.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    &__title {
+        @include center-object();
+
+
+    }
+
+    &__slogan {
+
+    }
+}
