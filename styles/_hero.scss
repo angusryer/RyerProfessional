@@ -8,6 +8,8 @@
 
     &__card {
         display: flex;
+        position: relative;
+        left: -13%;
     }
 
     &__card-image {
