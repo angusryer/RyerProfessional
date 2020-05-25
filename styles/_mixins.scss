@@ -1,0 +1,9 @@
+@import 'global';
+@import 'variables';
+
+@mixin center-this-object($horizontalOffset: -50%, $verticalOffset: -50%) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate($horizontalOffset, $verticalOffset);
+}

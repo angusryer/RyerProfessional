@@ -1,0 +1,32 @@
+@import 'global';
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vmin;
+
+    &__card {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+
+        &__image {
+            height: auto;
+            padding-top: 100%;
+            width: 100%;
+            border-radius: 50%;
+            background-image: url('/assets/AngusWins.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+        
+        &__text-group {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            padding: 40px;
+        }
+    }
+}
