@@ -1,8 +1,6 @@
 * {
   font-family: 'Marcellus', serif;
   text-decoration: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -10,8 +8,6 @@
 * {
   font-family: 'Marcellus', serif;
   text-decoration: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -19,8 +15,6 @@
 * {
   font-family: 'Marcellus', serif;
   text-decoration: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -28,8 +22,6 @@
 * {
   font-family: 'Marcellus', serif;
   text-decoration: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -51,16 +43,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 20px;
 }
 
-.hero__card__image {
-  height: auto;
-  padding-top: 100%;
-  width: 100%;
+.hero__card-image {
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   background-image: url("/assets/AngusWins.jpg");
   background-position: center;
@@ -68,7 +55,7 @@
   background-size: cover;
 }
 
-.hero__card__text-group {
+.hero__card-text-group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -76,9 +63,12 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   padding: 40px;
+  white-space: nowrap;
+}
+
+.hero__card-text-group--name {
+  position: relative;
+  top: -4px;
 }
 /*# sourceMappingURL=main.css.map */

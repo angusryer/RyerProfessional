@@ -8,25 +8,27 @@
 
     &__card {
         display: flex;
-        justify-content: space-between;
-        margin: 20px;
+    }
 
-        &__image {
-            height: auto;
-            padding-top: 100%;
-            width: 100%;
-            border-radius: 50%;
-            background-image: url('/assets/AngusWins.jpg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            }
-        
-        &__text-group {
-            display: flex;
-            flex-flow: column nowrap;
-            justify-content: center;
-            padding: 40px;
+    &__card-image {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        background-image: url('/assets/AngusWins.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+    
+    &__card-text-group {
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 40px;
+        white-space: nowrap;
+
+        &--name {
+            position: relative;
+            top: -4px;
         }
     }
 }
