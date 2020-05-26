@@ -48,6 +48,7 @@
 }
 
 .hero__card-image {
+  padding: 1rem;
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -235,9 +236,22 @@
   padding: 0;
 }
 
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .search__bar {
+  min-width: 250px;
   width: 40%;
-  border: 1px solid slategrey;
-  display: none;
+  border: 1px solid rgba(112, 128, 144, 0.253);
+}
+
+.search__bar:hover {
+  border-color: rgba(112, 128, 144, 0.253);
 }
 /*# sourceMappingURL=main.css.map */
