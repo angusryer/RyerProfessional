@@ -220,4 +220,24 @@
             align-items: center;
   }
 }
+
+* {
+  font-family: 'Marcellus', serif;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: 'Marcellus', serif;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.search__bar {
+  width: 40%;
+  border: 1px solid slategrey;
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */
