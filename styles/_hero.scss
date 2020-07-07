@@ -24,18 +24,12 @@
         background-repeat: no-repeat;
         background-size: cover;
         }
-    
-    &__card-text-group {
-        display: flex;
-        flex-flow: column nowrap;
-        padding: 40px;
-        white-space: nowrap;
 
-        &--name {
-            font-weight: 700;
-            position: relative;
-            top: -4px;
-        }
+    &__card-text-name {
+        @include card-text;
+        font-weight: 700;
+        position: relative;
+        top: -4px;
     }
 }
 

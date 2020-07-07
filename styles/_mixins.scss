@@ -7,3 +7,10 @@
     left: 50%;
     transform: translate($horizontalOffset, $verticalOffset);
 }
+
+@mixin card-text {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 40px;
+    white-space: nowrap;
+}

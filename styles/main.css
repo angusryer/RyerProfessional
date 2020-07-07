@@ -58,7 +58,7 @@
   background-size: cover;
 }
 
-.hero__card-text-group {
+.hero__card-text-name {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,9 +68,6 @@
           flex-flow: column nowrap;
   padding: 40px;
   white-space: nowrap;
-}
-
-.hero__card-text-group--name {
   font-weight: 700;
   position: relative;
   top: -4px;
