@@ -1,0 +1,58 @@
+{
+  "name": "angusexposed",
+  "version": "1.0.0",
+  "description": "Angus' Professional Exposé",
+  "main": "/src/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angusryer/angusryer.github.io.git"
+  },
+  "keywords": [
+    "professional",
+    "resume",
+    "cv",
+    "curriculum",
+    "vitae"
+  ],
+  "author": "Angus W Ryer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angusryer/angusryer.github.io/issues"
+  },
+  "homepage": "https://github.com/angusryer/angusryer.github.io#readme",
+  "dependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^4.2.1",
+    "enzyme": "^3.11.0",
+    "express": "^4.17.1",
+    "file-loader": "^6.0.0",
+    "html-webpack-partials-plugin": "^0.5.6",
+    "html-webpack-plugin": "^4.3.0",
+    "jest": "^26.4.0",
+    "mini-css-extract-plugin": "^0.10.0",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "sass-loader": "^9.0.3",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.1.1"
+  }
+}
